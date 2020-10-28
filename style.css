@@ -1,0 +1,75 @@
+/* Colors and fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap');
+
+body {
+  background: #e8e8e8;
+  color: #625261;
+  font-family: 'Rubik', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: center;
+}
+#logo {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 3px rgba(0,0,0,.1);
+}
+
+h1, h2, h3 {
+  font-family: 'Rubik', sans-serif;
+}
+h1 {
+  color: #625261;
+  font-size: 32px;
+  padding: 10px 0px;
+}
+h2 {
+  color: #6D7C56;
+  font-size: 22px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #8675a9;
+  font-weight: bolder;
+  font-size: 16px;
+}
+a:hover{
+  color: rgba(0,0,0,.7);
+}
+#btn-purple{
+  background-color: #8675a9;
+  color: white;
+  margin: 10px 0px;
+  padding: 10px;
+}
+#btn-purple:hover {
+  background-color: rgba(0,0,0,.7);
+}
+.intro{
+  margin: 40px 20px;
+}
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card{
+  width: 450px;
+  margin: 30px 0px;
+  background: white;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  box-shadow: 5px 5px 3px rgba(0,0,0,.1);
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+.footer{
+  width: 500px;
+  margin: 0 auto;
+}
