@@ -40,6 +40,11 @@ a {
 a:hover{
   color: rgba(0,0,0,.7);
 }
+i{
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
 #btn-purple{
   background-color: #8675a9;
   color: white;
@@ -73,3 +78,4 @@ a:hover{
   width: 500px;
   margin: 0 auto;
 }
+
